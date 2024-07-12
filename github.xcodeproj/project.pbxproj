@@ -14,6 +14,9 @@
 		098D3AF82C41AEBF006900CD /* githubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3AF72C41AEBF006900CD /* githubTests.swift */; };
 		098D3B022C41AEBF006900CD /* githubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B012C41AEBF006900CD /* githubUITests.swift */; };
 		098D3B042C41AEBF006900CD /* githubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B032C41AEBF006900CD /* githubUITestsLaunchTests.swift */; };
+		098D3B852C470902006900CD /* welc 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B842C470902006900CD /* welc 2.swift */; };
+		098D3B872C470BDE006900CD /* welc 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B862C470BDE006900CD /* welc 3.swift */; };
+		098D3B892C470CEC006900CD /* home 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B882C470CEC006900CD /* home 1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		098D3AFD2C41AEBF006900CD /* githubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		098D3B012C41AEBF006900CD /* githubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubUITests.swift; sourceTree = "<group>"; };
 		098D3B032C41AEBF006900CD /* githubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		098D3B842C470902006900CD /* welc 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "welc 2.swift"; sourceTree = "<group>"; };
+		098D3B862C470BDE006900CD /* welc 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "welc 3.swift"; sourceTree = "<group>"; };
+		098D3B882C470CEC006900CD /* home 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home 1.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		098D3ADA2C41AEBC006900CD = {
 			isa = PBXGroup;
 			children = (
+				098D3B862C470BDE006900CD /* welc 3.swift */,
+				098D3B882C470CEC006900CD /* home 1.swift */,
+				098D3B842C470902006900CD /* welc 2.swift */,
 				098D3AE52C41AEBC006900CD /* github */,
 				098D3AF62C41AEBF006900CD /* githubTests */,
 				098D3B002C41AEBF006900CD /* githubUITests */,
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098D3B892C470CEC006900CD /* home 1.swift in Sources */,
 				098D3AE92C41AEBC006900CD /* ContentView.swift in Sources */,
+				098D3B872C470BDE006900CD /* welc 3.swift in Sources */,
+				098D3B852C470902006900CD /* welc 2.swift in Sources */,
 				098D3AE72C41AEBC006900CD /* githubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

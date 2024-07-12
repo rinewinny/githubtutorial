@@ -1,33 +1,31 @@
 //
-//  ContentView.swift
+//  welc 3.swift
 //  github
 //
-//  Created by Anne Pham on 7/12/24.
+//  Created by Anne Pham on 7/16/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct welc_3: View {
     var body: some View {
         VStack {
-           
             NavigationStack {
-                Text("welcome to")
-                Text("pawsitively yours")
+            Text("are you ready to begin your journey?")
                 
-                NavigationLink(destination: welc_2()) {
+                NavigationLink(destination: home_1()){
                     Text("begin")
-                        .padding(6)
+                        .padding(5)
                         .foregroundColor(.white)
                         .background(.mint)
                         .cornerRadius(7)
                 }
-              
-            }
         }
     }
 }
+    }
+
 
 #Preview {
-    ContentView()
+    welc_3()
 }
