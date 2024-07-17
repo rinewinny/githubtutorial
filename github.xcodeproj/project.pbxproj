@@ -17,6 +17,7 @@
 		098D3B852C470902006900CD /* welc 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B842C470902006900CD /* welc 2.swift */; };
 		098D3B872C470BDE006900CD /* welc 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B862C470BDE006900CD /* welc 3.swift */; };
 		098D3B892C470CEC006900CD /* home 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B882C470CEC006900CD /* home 1.swift */; };
+		098D3B8B2C47A652006900CD /* pet profile 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B8A2C47A652006900CD /* pet profile 1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		098D3B842C470902006900CD /* welc 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "welc 2.swift"; sourceTree = "<group>"; };
 		098D3B862C470BDE006900CD /* welc 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "welc 3.swift"; sourceTree = "<group>"; };
 		098D3B882C470CEC006900CD /* home 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home 1.swift"; sourceTree = "<group>"; };
+		098D3B8A2C47A652006900CD /* pet profile 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "pet profile 1.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		098D3ADA2C41AEBC006900CD = {
 			isa = PBXGroup;
 			children = (
+				098D3B8A2C47A652006900CD /* pet profile 1.swift */,
 				098D3B862C470BDE006900CD /* welc 3.swift */,
 				098D3B882C470CEC006900CD /* home 1.swift */,
 				098D3B842C470902006900CD /* welc 2.swift */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				098D3B892C470CEC006900CD /* home 1.swift in Sources */,
+				098D3B8B2C47A652006900CD /* pet profile 1.swift in Sources */,
 				098D3AE92C41AEBC006900CD /* ContentView.swift in Sources */,
 				098D3B872C470BDE006900CD /* welc 3.swift in Sources */,
 				098D3B852C470902006900CD /* welc 2.swift in Sources */,
