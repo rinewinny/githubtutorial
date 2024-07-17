@@ -15,7 +15,7 @@ struct welc_3: View {
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.101, saturation: 0.506, brightness: 0.764))
-                NavigationLink(destination: home_1()){
+                NavigationLink(destination: HomeView()){
                     Text("begin")
                         .padding(5)
                         .foregroundColor(.white)
