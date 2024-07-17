@@ -9,7 +9,23 @@ import SwiftUI
 
 struct pet_profile_1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(red:0.38431372549, green: 0.36078431372, blue: 0.34509803921)
+                .ignoresSafeArea()
+            VStack {
+                Image("hi")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(15)
+            }
+            .padding()
+            .background(Rectangle()
+                .foregroundColor(.white))
+                    .cornerRadius(15)
+                    .shadow(radius: 15)
+            .padding()
+        }
+
     }
 }
 

@@ -12,7 +12,9 @@ struct welc_3: View {
         VStack {
             NavigationStack {
             Text("are you ready to begin your journey?")
-                
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(hue: 0.101, saturation: 0.506, brightness: 0.764))
                 NavigationLink(destination: home_1()){
                     Text("begin")
                         .padding(5)
