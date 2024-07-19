@@ -17,7 +17,28 @@
 		098D3B852C470902006900CD /* welc 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B842C470902006900CD /* welc 2.swift */; };
 		098D3B872C470BDE006900CD /* welc 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B862C470BDE006900CD /* welc 3.swift */; };
 		098D3B892C470CEC006900CD /* home 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B882C470CEC006900CD /* home 1.swift */; };
-		098D3B8B2C47A652006900CD /* pet profile 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3B8A2C47A652006900CD /* pet profile 1.swift */; };
+		09AB13712C49976A009581C3 /* PetProfile1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB13702C49976A009581C3 /* PetProfile1.swift */; };
+		09AB13742C4A5D8F009581C3 /* Migra-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13732C4A5D8E009581C3 /* Migra-Extralight.otf */; };
+		09AB13752C4A5D8F009581C3 /* Migra-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13732C4A5D8E009581C3 /* Migra-Extralight.otf */; };
+		09AB13762C4A5D8F009581C3 /* Migra-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13732C4A5D8E009581C3 /* Migra-Extralight.otf */; };
+		09AB13792C4A631C009581C3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB13782C4A631C009581C3 /* SwiftUIView.swift */; };
+		09AB137A2C4A631D009581C3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB13782C4A631C009581C3 /* SwiftUIView.swift */; };
+		09AB137B2C4A631D009581C3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB13782C4A631C009581C3 /* SwiftUIView.swift */; };
+		09AB137D2C4A6403009581C3 /* Aileron-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB137C2C4A6403009581C3 /* Aileron-Heavy.otf */; };
+		09AB137E2C4A6403009581C3 /* Aileron-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB137C2C4A6403009581C3 /* Aileron-Heavy.otf */; };
+		09AB137F2C4A6403009581C3 /* Aileron-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB137C2C4A6403009581C3 /* Aileron-Heavy.otf */; };
+		09AB13852C4A65BB009581C3 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13842C4A65BB009581C3 /* Aileron-Regular.otf */; };
+		09AB13862C4A65BB009581C3 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13842C4A65BB009581C3 /* Aileron-Regular.otf */; };
+		09AB13872C4A65BB009581C3 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13842C4A65BB009581C3 /* Aileron-Regular.otf */; };
+		09AB13952C4A6B0F009581C3 /* Migra-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13942C4A6B0F009581C3 /* Migra-Extrabold.otf */; };
+		09AB13962C4A6B0F009581C3 /* Migra-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13942C4A6B0F009581C3 /* Migra-Extrabold.otf */; };
+		09AB13972C4A6B0F009581C3 /* Migra-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13942C4A6B0F009581C3 /* Migra-Extrabold.otf */; };
+		09AB139D2C4A6D9F009581C3 /* MigraItalic-ExtraboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB139C2C4A6D9E009581C3 /* MigraItalic-ExtraboldItalic.ttf */; };
+		09AB139E2C4A6D9F009581C3 /* MigraItalic-ExtraboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB139C2C4A6D9E009581C3 /* MigraItalic-ExtraboldItalic.ttf */; };
+		09AB139F2C4A6D9F009581C3 /* MigraItalic-ExtraboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB139C2C4A6D9E009581C3 /* MigraItalic-ExtraboldItalic.ttf */; };
+		09AB13A12C4A6EF9009581C3 /* Aileron-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13A02C4A6EF9009581C3 /* Aileron-Bold.otf */; };
+		09AB13A22C4A6EF9009581C3 /* Aileron-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13A02C4A6EF9009581C3 /* Aileron-Bold.otf */; };
+		09AB13A32C4A6EF9009581C3 /* Aileron-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AB13A02C4A6EF9009581C3 /* Aileron-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +72,15 @@
 		098D3B842C470902006900CD /* welc 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "welc 2.swift"; sourceTree = "<group>"; };
 		098D3B862C470BDE006900CD /* welc 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "welc 3.swift"; sourceTree = "<group>"; };
 		098D3B882C470CEC006900CD /* home 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home 1.swift"; sourceTree = "<group>"; };
-		098D3B8A2C47A652006900CD /* pet profile 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "pet profile 1.swift"; sourceTree = "<group>"; };
+		09AB13702C49976A009581C3 /* PetProfile1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfile1.swift; sourceTree = "<group>"; };
+		09AB13732C4A5D8E009581C3 /* Migra-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Migra-Extralight.otf"; sourceTree = "<group>"; };
+		09AB13772C4A60A6009581C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		09AB13782C4A631C009581C3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		09AB137C2C4A6403009581C3 /* Aileron-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Heavy.otf"; sourceTree = "<group>"; };
+		09AB13842C4A65BB009581C3 /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
+		09AB13942C4A6B0F009581C3 /* Migra-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Migra-Extrabold.otf"; sourceTree = "<group>"; };
+		09AB139C2C4A6D9E009581C3 /* MigraItalic-ExtraboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MigraItalic-ExtraboldItalic.ttf"; sourceTree = "<group>"; };
+		09AB13A02C4A6EF9009581C3 /* Aileron-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +111,8 @@
 		098D3ADA2C41AEBC006900CD = {
 			isa = PBXGroup;
 			children = (
-				098D3B8A2C47A652006900CD /* pet profile 1.swift */,
+				09AB13722C4A5D11009581C3 /* fonts */,
+				09AB13702C49976A009581C3 /* PetProfile1.swift */,
 				098D3B862C470BDE006900CD /* welc 3.swift */,
 				098D3B882C470CEC006900CD /* home 1.swift */,
 				098D3B842C470902006900CD /* welc 2.swift */,
@@ -106,8 +136,10 @@
 		098D3AE52C41AEBC006900CD /* github */ = {
 			isa = PBXGroup;
 			children = (
+				09AB13772C4A60A6009581C3 /* Info.plist */,
 				098D3AE62C41AEBC006900CD /* githubApp.swift */,
 				098D3AE82C41AEBC006900CD /* ContentView.swift */,
+				09AB13782C4A631C009581C3 /* SwiftUIView.swift */,
 				098D3AEA2C41AEBE006900CD /* Assets.xcassets */,
 				098D3AEC2C41AEBE006900CD /* Preview Content */,
 			);
@@ -137,6 +169,19 @@
 				098D3B032C41AEBF006900CD /* githubUITestsLaunchTests.swift */,
 			);
 			path = githubUITests;
+			sourceTree = "<group>";
+		};
+		09AB13722C4A5D11009581C3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				09AB13732C4A5D8E009581C3 /* Migra-Extralight.otf */,
+				09AB13842C4A65BB009581C3 /* Aileron-Regular.otf */,
+				09AB13942C4A6B0F009581C3 /* Migra-Extrabold.otf */,
+				09AB139C2C4A6D9E009581C3 /* MigraItalic-ExtraboldItalic.ttf */,
+				09AB13A02C4A6EF9009581C3 /* Aileron-Bold.otf */,
+				09AB137C2C4A6403009581C3 /* Aileron-Heavy.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +288,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB13952C4A6B0F009581C3 /* Migra-Extrabold.otf in Resources */,
+				09AB137D2C4A6403009581C3 /* Aileron-Heavy.otf in Resources */,
+				09AB139D2C4A6D9F009581C3 /* MigraItalic-ExtraboldItalic.ttf in Resources */,
 				098D3AEE2C41AEBE006900CD /* Preview Assets.xcassets in Resources */,
 				098D3AEB2C41AEBE006900CD /* Assets.xcassets in Resources */,
+				09AB13742C4A5D8F009581C3 /* Migra-Extralight.otf in Resources */,
+				09AB13852C4A65BB009581C3 /* Aileron-Regular.otf in Resources */,
+				09AB13A12C4A6EF9009581C3 /* Aileron-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +303,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB137E2C4A6403009581C3 /* Aileron-Heavy.otf in Resources */,
+				09AB13962C4A6B0F009581C3 /* Migra-Extrabold.otf in Resources */,
+				09AB139E2C4A6D9F009581C3 /* MigraItalic-ExtraboldItalic.ttf in Resources */,
+				09AB13A22C4A6EF9009581C3 /* Aileron-Bold.otf in Resources */,
+				09AB13862C4A65BB009581C3 /* Aileron-Regular.otf in Resources */,
+				09AB13752C4A5D8F009581C3 /* Migra-Extralight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +316,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB137F2C4A6403009581C3 /* Aileron-Heavy.otf in Resources */,
+				09AB13972C4A6B0F009581C3 /* Migra-Extrabold.otf in Resources */,
+				09AB139F2C4A6D9F009581C3 /* MigraItalic-ExtraboldItalic.ttf in Resources */,
+				09AB13A32C4A6EF9009581C3 /* Aileron-Bold.otf in Resources */,
+				09AB13872C4A65BB009581C3 /* Aileron-Regular.otf in Resources */,
+				09AB13762C4A5D8F009581C3 /* Migra-Extralight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB13712C49976A009581C3 /* PetProfile1.swift in Sources */,
+				09AB13792C4A631C009581C3 /* SwiftUIView.swift in Sources */,
 				098D3B892C470CEC006900CD /* home 1.swift in Sources */,
-				098D3B8B2C47A652006900CD /* pet profile 1.swift in Sources */,
 				098D3AE92C41AEBC006900CD /* ContentView.swift in Sources */,
 				098D3B872C470BDE006900CD /* welc 3.swift in Sources */,
 				098D3B852C470902006900CD /* welc 2.swift in Sources */,
@@ -282,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB137A2C4A631D009581C3 /* SwiftUIView.swift in Sources */,
 				098D3AF82C41AEBF006900CD /* githubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +357,7 @@
 			files = (
 				098D3B022C41AEBF006900CD /* githubUITests.swift in Sources */,
 				098D3B042C41AEBF006900CD /* githubUITestsLaunchTests.swift in Sources */,
+				09AB137B2C4A631D009581C3 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +507,7 @@
 				DEVELOPMENT_TEAM = 96863CA35Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = github/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "kwk - d1";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +538,7 @@
 				DEVELOPMENT_TEAM = 96863CA35Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = github/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "kwk - d1";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -9,16 +9,23 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            home_1()
-            home_2()
-            Spacer()
-            MenuBar()
+        NavigationView {
+            ZStack {
+                Color(red: 0.98, green: 0.97, blue: 0.95) // Background color extracted from the image
+                    .edgesIgnoringSafeArea(.all)
+                VStack {
+                    home_1()
+                    home_2()
+                    Spacer()
+                    MenuBar()
+                }
+            }
         }
     }
 }
 
-struct ColumnData {
+struct ColumnData: Identifiable {
+    let id = UUID()
     let imageName: String
     let text: String
     let gender: String
@@ -36,19 +43,20 @@ struct home_1: View {
                 .aspectRatio(contentMode: .fit)
                 .padding(.all)
                 .frame(width: 50.0, height: 50.0)
-                .background(Color(red: 0.976, green: 0.976, blue: 0.882))
+                .background(Color(red: 0.86, green: 0.69, blue: 0.66))
                 .cornerRadius(8)
-            
+
             VStack {
                 HStack {
                     Text("Your Location")
-                        .font(.footnote)
+                        .font(.custom("Migra-Extralight", size: 14))
                         .multilineTextAlignment(.leading)
                     Spacer()
                 }
                 HStack {
                     Text("Seattle, Washington")
-                        .font(.headline)
+                        .font(.custom("Migra-Extralight", size: 16))
+                        .fontWeight(.medium)
                         .multilineTextAlignment(.leading)
                     Spacer()
                 }
@@ -59,7 +67,7 @@ struct home_1: View {
                 .aspectRatio(contentMode: .fit)
                 .padding(.all)
                 .frame(width: 50.0, height: 50.0)
-                .background(Color(red: 0.976, green: 0.976, blue: 0.882))
+                .background(Color(red: 0.86, green: 0.69, blue: 0.66))
                 .cornerRadius(8)
             Spacer()
         }
@@ -68,9 +76,9 @@ struct home_1: View {
 
 struct home_2: View {
     let columns = [
-        ColumnData(imageName: "kitty", text: "Luna", gender: "Female", age:"1y 4m", favorites: "heart.fill", adopt: "Adopt"),
-        ColumnData(imageName: "doggy", text: "Juno", gender: "Male", age:"0y 8m", favorites: "heart.fill", adopt: "Adopt"),
-        ColumnData(imageName: "cat 2", text: "Milo", gender: "Male", age: "2y 3m", favorites: "heart.fill", adopt: "Adopt")
+        ColumnData(imageName: "kitty", text: "Luna", gender: "Female", age: "1y 4m", favorites: "heart.fill", adopt: "Adopt"),
+        ColumnData(imageName: "doggy", text: "Juno", gender: "Male", age: "0y 8m", favorites: "heart.fill", adopt: "Adopt"),
+        ColumnData(imageName: "Screenshot 2024-07-19 at 5.08.33 AM", text: "Milo", gender: "Male", age: "2y 3m", favorites: "heart.fill", adopt: "Adopt")
     ]
     
     var body: some View {
@@ -82,37 +90,39 @@ struct home_2: View {
                     .padding(.horizontal)
                     .frame(width: 48.0, height: 45.0)
                 Text("search your pet")
-                    .font(.headline)
+                    .font(.custom("Aileron-Regular", size: 16))
                     .fontWeight(.thin)
+                    
                 Spacer()
             }
-            .border(Color(red: 0.91, green: 0.91, blue: 0.914), width: 2)
+            .border(Color(hue: 0.064, saturation: 0.077, brightness: 0.889), width: 2)
             .cornerRadius(7)
             .padding(.all, 5.0)
             
             Text("Categories")
-                .font(.headline)
-                .fontWeight(.semibold)
+                .font(.custom("Migra-Extralight", size: 26))
+                .fontWeight(.regular)
                 .padding(.leading)
-                .padding(.top, 8) // Added to adjust padding above categories
-                
+                .padding(.top, 8)
+            
             CategoryBar()
-                .padding(.top, -8) // Adjust this value to control the gap between the title and categories
+                .padding(.top, -8)
             
             HStack {
                 Text("Near you")
-                    .font(.headline)
-                    .fontWeight(.semibold)
+                    .font(.custom("Migra-Extralight", size: 26))
+                    .fontWeight(.regular)
                     .padding(.leading)
+                    .padding(.top, -8)
                 Spacer()
                 Text("see all")
-                    .font(.subheadline)
+                    .font(.custom("Migra-Extralight", size: 16))
                     .padding(.trailing)
             }
             
             ScrollView(.horizontal) {
                 LazyHStack {
-                    ForEach(columns, id: \.imageName) { column in
+                    ForEach(columns) { column in
                         VStack {
                             Image(column.imageName)
                                 .resizable()
@@ -124,50 +134,53 @@ struct home_2: View {
                             
                             VStack(alignment: .leading) {
                                 Text(column.text)
-                                    .font(.headline)
+                                    .font(.custom("Migra-Extralight", size: 22))
+                                    .fontWeight(.regular)
                                     .multilineTextAlignment(.leading)
                                     .padding(.top, 4)
                                     .padding(.bottom, -5)
                                 HStack {
                                     Text(column.gender)
-                                        .font(.subheadline)
+                                        .font(.custom("Aileron-Regular", size: 16))
                                         .padding(.top, 2)
                                     Spacer()
                                     Text(column.age)
-                                        .font(.subheadline)
+                                        .font(.custom("Aileron-Regular", size: 16))
                                         .padding(.top, 2)
                                 }
                                 HStack {
                                     Image(systemName: column.favorites)
                                         .padding(.all, 7.0)
                                         .foregroundColor(.red)
-                                        .background(Color(red: 0.976, green: 0.976, blue: 0.881))
+                                        .background(Color(hue: 0.089, saturation: 0.311, brightness: 0.956))
                                         .cornerRadius(6)
                                         .padding(.top, 9.0)
-                                
+                
                                     Spacer()
                                     
-                                    Text(column.adopt)
-                                        .padding(.all, 7)
-                                        .font(.subheadline)
-                                        .background(.blue)
-                                        .cornerRadius(6)
-                                        .padding(.top, 9.0)
-                                        
+                                    NavigationLink(destination: PetProfile1(pet: column)) {
+                                        Text(column.adopt)
+                                            .padding(.all, 7)
+                                            .font(.custom("Aileron-Regular", size: 14))
+                                            .background(Color(red: 0.86, green: 0.69, blue: 0.66))
+                                            .foregroundColor(.white)
+                                            .cornerRadius(6)
+                                            .padding(.top, 9.0)
+                                    }
                                 }
                             }
                             .padding()
-                            .background(Color.white) // solid background behind the text
+                            .background(Color(red: 0.98, green: 0.97, blue: 0.95))
                             .cornerRadius(6)
-                        
                         }
                         .padding()
-                        .background(Color(hue: 0.942, saturation: 0.458, brightness: 0.942, opacity: 0.818)) // background for the entire column
-                        .cornerRadius(8)
+                        .background(Color(red: 0.86, green: 0.69, blue: 0.66))
+                        .cornerRadius(22)
                     }
                 }
                 .padding()
             }
+            .frame(height: 350)
         }
     }
 }
@@ -177,30 +190,32 @@ struct CategoryBar: View {
         HStack {
             VStack {
                 Text("Cats")
-                    .font(.callout)
+                    .font(.custom("Aileron-Regular", size: 17))
                     .padding(.all)
             }
-            .background(Color(red: 0.976, green: 0.976, blue: 0.882))
+            .background(Color(red: 0.86, green: 0.69, blue: 0.66))
+            .cornerRadius(7)
             .padding(.top, 8.0)
             .padding([.bottom], 40.0)
             .padding(.leading)
             
             VStack {
                 Text("Dogs")
-                    .font(.callout)
+                    .font(.custom("Aileron-Regular", size: 17))
                     .padding(.all)
             }
-            .background(Color(red: 0.976, green: 0.976, blue: 0.882))
+            .background(Color(red: 0.86, green: 0.69, blue: 0.66))
+            .cornerRadius(7)
             .padding(.top, 8.0)
-            .padding([.bottom,], 40.0)
-            
+            .padding([.bottom], 40.0)
             
             VStack {
                 Text("Bunnies")
-                    .font(.callout)
+                    .font(.custom("Aileron-Regular", size: 17))
                     .padding(.all)
             }
-            .background(Color(red: 0.976, green: 0.976, blue: 0.882))
+            .background(Color(red: 0.86, green: 0.69, blue: 0.66))
+            .cornerRadius(7)
             .padding(.top, 8.0)
             .padding([.bottom, .trailing], 40.0)
         }
@@ -215,26 +230,27 @@ struct MenuBar: View {
                 Image(systemName: "house")
                     .padding(.bottom, 5.0)
                 Text("Home")
-                    .font(.footnote)
+                    .font(.custom("Migra-Extralight", size: 18))
             }
             Spacer()
             VStack {
                 Image(systemName: "heart")
                     .padding(.bottom, 5.0)
                 Text("Favorites")
-                    .font(.footnote)
+                    .font(.custom("Migra-Extralight", size: 18))
             }
             Spacer()
             VStack {
                 Image(systemName: "person")
                     .padding(.bottom, 5.0)
                 Text("Profile")
-                    .font(.footnote)
+                    .font(.custom("Migra-Extralight", size: 18))
+                    
             }
             Spacer()
         }
         .padding()
-        .background(Color(red: 0.976, green: 0.976, blue: 0.881))
+        .background(Color(red: 0.85, green: 0.72, blue: 0.69))
     }
 }
 

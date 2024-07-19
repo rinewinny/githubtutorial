@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Migra-Extralight.otf</string>
+		<string>MigraItalic-ExtraboldItalic.ttf</string>
+		<string>Migra-Extrabold.otf</string>
+		<string>Aileron-Heavy.otf</string>
+		<string>Aileron-Regular.otf</string>
+		<string>Aileron-Bold.otf</string>
+	</array>
+</dict>
+</plist>
